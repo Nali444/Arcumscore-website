@@ -1,0 +1,49 @@
+export default function ArcumLanding() {
+  return (
+    <main className="min-h-screen bg-black text-white font-sans">
+      <section className="text-center py-20 px-6">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">ARCUM.SCORE</h1>
+        <p className="text-xl md:text-2xl mb-8">Certified by Thought. Recognized by Leaders.</p>
+        <p className="max-w-2xl mx-auto text-gray-300 mb-10">
+          Ein Denk-Zertifikat für Unternehmer, Vordenker und Strategen. ARCUM analysiert, bewertet und ehrt klare Struktur und reflektierte Tiefe – mit einem Totem, das keine Kopie kennt.
+        </p>
+        <button className="bg-white text-black px-8 py-4 rounded-2xl shadow-xl text-lg font-semibold hover:bg-gray-200 transition">Join the First 100 ARCUM Minds</button>
+      </section>
+
+      <section className="bg-gray-900 py-20 px-6 text-center">
+        <h2 className="text-3xl md:text-5xl font-semibold mb-6">The ARCUM.TOTEM</h2>
+        <p className="max-w-xl mx-auto text-gray-400 mb-10">
+          Das ARCUM.TOTEM ist kein Preis. Es ist ein Beweis. Nur wer den Score meistert, erhält dieses Symbol strategischer Exzellenz.
+        </p>
+        <img src="/totem-placeholder.png" alt="ARCUM Totem" className="mx-auto w-64 h-auto" />
+      </section>
+
+      <section className="py-20 px-6 bg-black text-center">
+        <h2 className="text-3xl md:text-4xl font-semibold mb-6">Wie es funktioniert</h2>
+        <p className="max-w-xl mx-auto text-gray-400">
+          4 Denkachsen. GPT-bewertet. Zeitlich limitiert. Nicht manipulierbar. Kein Multiple Choice. Kein Coaching. Nur du und dein Denken.
+        </p>
+      </section>
+
+      <section className="bg-gray-900 py-20 px-6 text-center">
+        <h2 className="text-3xl md:text-4xl font-semibold mb-6">Was ARCUM dir bringt</h2>
+        <ul className="max-w-xl mx-auto text-gray-400 space-y-4">
+          <li>• Besser bewerben</li>
+          <li>• Vertrauen bei Investoren</li>
+          <li>• Sichtbar im ARCUM.Network</li>
+          <li>• Beitritt nur nach Test</li>
+        </ul>
+      </section>
+
+      <section className="bg-black py-20 px-6 text-center">
+        <h2 className="text-3xl md:text-4xl font-semibold mb-6">Request Invite</h2>
+        <form className="max-w-lg mx-auto space-y-6">
+          <input type="text" placeholder="Name" className="w-full px-4 py-3 rounded-xl text-black" />
+          <input type="url" placeholder="LinkedIn oder Website" className="w-full px-4 py-3 rounded-xl text-black" />
+          <textarea placeholder="Warum willst du ARCUM machen? (optional)" className="w-full px-4 py-3 rounded-xl text-black" rows="4"></textarea>
+          <button className="bg-white text-black px-8 py-4 rounded-2xl shadow-xl text-lg font-semibold hover:bg-gray-200 transition">Request Invite</button>
+        </form>
+      </section>
+    </main>
+  );
+}
